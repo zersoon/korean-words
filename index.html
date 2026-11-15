@@ -1,0 +1,279 @@
+<!doctype html><html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="format-detection" content="telephone=no">
+<title>延世韩语词汇 · 总览</title><style>:root{--navy:#17324d;--ink:#1f2933;--mute:#6b7785;--line:#e3e8ee;--bg:#f6f8fa;--card:#fff;--teal:#2f9e8f;
+--t-tong:#2f6fb5;--t-yue:#2e8b57;--t-gu:#b7791f;--t-wai:#7b4bb3;--t-da:#6b7280;--t-fa:#c2416b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif}
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:16px;padding:10px 20px;background:var(--navy);color:#fff}
+.brand{font-weight:700;white-space:nowrap}
+.top nav{display:flex;gap:4px;flex:1;overflow-x:auto}
+.top nav a{color:#c9d6e2;text-decoration:none;padding:4px 12px;border-radius:999px;white-space:nowrap;font-size:14px}
+.top nav a.on,.top nav a:hover{background:rgba(255,255,255,.16);color:#fff}
+#slow{border:1px solid rgba(255,255,255,.4);background:transparent;color:#fff;border-radius:999px;padding:4px 14px;font:inherit;font-size:14px;cursor:pointer;white-space:nowrap}
+#slow[aria-pressed=true]{background:var(--teal);border-color:var(--teal)}
+.wrap{display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;max-width:1180px;margin:0 auto;padding:24px 20px 80px}
+.side{position:sticky;top:64px;align-self:start;max-height:calc(100vh - 80px);overflow:auto;display:flex;flex-direction:column;gap:2px;font-size:14px}
+.side a{color:var(--mute);text-decoration:none;padding:5px 10px;border-radius:6px;border-left:3px solid transparent}
+.side a:hover{background:#e9eef3;color:var(--ink)}
+.side:empty{display:none}
+h1{font-size:30px;line-height:1.25;margin:8px 0 12px;color:var(--navy);text-wrap:balance}
+main>p{max-width:46em}
+.lesson{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 28px 20px;margin:28px 0}
+.lh{border-bottom:2px solid var(--navy);padding-bottom:14px;margin-bottom:16px}
+.chip{display:inline-block;background:var(--teal);color:#fff;font-size:13px;font-weight:600;padding:2px 12px;border-radius:999px;letter-spacing:.04em}
+.lh h2{font-size:26px;margin:8px 0 0;color:var(--navy);line-height:1.3}
+.lh .sub{margin:2px 0 0;color:var(--mute)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14.5px;color:#3d4a57;background:#f1f5f8;border-radius:8px;padding:10px 14px;margin:0 0 8px}
+h3{font-size:17px;margin:26px 0 10px;color:var(--navy);display:flex;align-items:center;gap:8px}
+h3::before{content:"";width:4px;height:16px;background:var(--teal);border-radius:2px}
+ul{margin:8px 0;padding-left:1.25em}
+li{margin:5px 0;max-width:48em}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-weight:600}
+td{padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr:nth-child(even){background:#f8fafb}
+.vocab td.yue{white-space:nowrap;font-size:17px}
+.vocab td.yue b{font-weight:600}
+.pos{color:#8b96a3;font-size:13px}
+.en{color:#4a5663}
+.src{color:var(--t-wai);white-space:nowrap}
+.jpc{border-left:3px solid var(--t-da);min-width:150px}
+.jpc .jp{display:block;font-size:15px;color:var(--ink)}
+.jpc .tag{display:block;font-size:12.5px;color:var(--t-da)}
+.t-同{border-left-color:var(--t-tong)}.t-同 .tag{color:var(--t-tong)}
+.t-粤{border-left-color:var(--t-yue)}.t-粤 .tag{color:var(--t-yue)}
+.t-古{border-left-color:var(--t-gu)}.t-古 .tag{color:var(--t-gu)}
+.t-外{border-left-color:var(--t-wai)}.t-外 .tag{color:var(--t-wai)}
+.t-法{border-left-color:var(--t-fa)}.t-法 .tag{color:var(--t-fa)}
+.jp,i.jp,.w i{font-style:normal;font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;font-size:.86em;color:#52606d;letter-spacing:-.01em}
+.play{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;border:0;background:#e6f3f1;color:var(--teal);cursor:pointer;vertical-align:middle;margin-right:8px;flex:none}
+.play:hover,.play.on{background:var(--teal);color:#fff}
+.w{cursor:pointer;border-bottom:1px dashed #9fcfc8;white-space:nowrap}
+.w:hover,.w.on{background:#e6f3f1}
+.w b{font-weight:600}
+.dlg{border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.playall{display:flex;align-items:center;gap:6px;width:100%;border:0;border-bottom:1px solid var(--line);background:#f1f5f8;color:var(--navy);font:inherit;font-size:14px;padding:7px 14px;cursor:pointer}
+.playall:hover{background:#e6edf3}
+.line{display:grid;grid-template-columns:30px minmax(0,1.15fr) minmax(0,1fr) 36px;gap:12px;align-items:start;padding:11px 14px;border-bottom:1px solid var(--line)}
+.line:last-child{border-bottom:0}
+.line.on{background:#eef8f6}
+.who{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--navy);color:#fff;font-size:13px;font-weight:600;margin-top:2px}
+.line:nth-child(odd) .who{background:var(--teal)}
+.say .yue{font-size:18px;font-weight:600;line-height:1.45}
+.tr{font-size:14.5px;color:#3d4a57}
+.tr .en{font-size:13.5px;color:var(--mute)}
+.line .play{margin:0}
+.scroll{overflow-x:auto}
+.plain td,.plain th{font-size:14.5px}
+.foot{color:var(--mute);font-size:13px;margin-top:40px}
+.pager{display:none}
+.side a.on{color:var(--navy);font-weight:600;border-left-color:var(--teal);background:#e9eef3}
+html{-webkit-text-size-adjust:100%}
+button,.w,a{-webkit-tap-highlight-color:transparent}
+@media screen and (max-width:860px){
+html{scroll-padding-top:104px}
+body{font-size:16px}
+.top{padding:0 12px;height:46px;gap:8px}
+.brand{display:none}
+.top nav{gap:2px;scrollbar-width:none}
+.top nav::-webkit-scrollbar,.side::-webkit-scrollbar{display:none}
+.top nav a{padding:5px 12px;font-size:15px}
+#slow{position:fixed;right:14px;bottom:calc(76px + env(safe-area-inset-bottom));z-index:6;width:52px;height:52px;padding:0;border-radius:50%;border:0;background:var(--navy);color:#fff;font-size:14px;font-weight:600;box-shadow:0 4px 14px rgba(23,50,77,.3)}
+body:not(.single) #slow{bottom:calc(20px + env(safe-area-inset-bottom))}
+.wrap{display:block;padding:0 0 calc(96px + env(safe-area-inset-bottom))}
+.side{position:sticky;top:46px;z-index:4;flex-direction:row;gap:8px;overflow-x:auto;max-height:none;padding:9px 12px;background:var(--bg);border-bottom:1px solid var(--line);scrollbar-width:none}
+.side a{flex:none;white-space:nowrap;border:1px solid var(--line);border-radius:999px;background:#fff;padding:5px 13px;font-size:14px;color:#3d4a57}
+.side a.on{background:var(--navy);border-color:var(--navy);color:#fff}
+main{padding:0 12px}
+h1{font-size:22px;margin:16px 4px 8px}
+main>p{font-size:15px;margin:8px 4px;color:#3d4a57}
+.single main>h1,.single main>p:not(.foot){display:none}
+.single .lesson{display:none}
+.single .lesson.cur{display:block}
+.lesson{padding:18px 14px 14px;margin:12px 0;border-radius:12px}
+.lh{padding-bottom:12px;margin-bottom:12px}
+.lh h2{font-size:22px}
+.meta{flex-direction:column;gap:4px;font-size:14.5px;padding:10px 12px}
+h3{font-size:17px;margin:24px 0 10px}
+ul{padding-left:1.15em}
+li{margin:8px 0}
+.w{white-space:normal}
+.play{width:40px;height:40px;margin-right:10px}
+.play svg{width:19px;height:19px}
+.vocab,.vocab tbody{display:block}
+.vocab thead{display:none}
+.vocab tr{display:grid;grid-template-columns:50px auto minmax(0,1fr);column-gap:0;row-gap:2px;padding:11px 0;border-bottom:1px solid var(--line);background:none!important;position:relative}
+.vocab tr:last-child{border-bottom:0}
+.vocab td{border:0;padding:0}
+.vocab td.yue{grid-column:1/-1;grid-row:1;display:flex;align-items:center;font-size:19px;white-space:normal}
+.vocab td.yue .pos{margin-left:8px}
+.vocab .jpc{border-left:0;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;grid-column:2/-1;grid-row:2}
+.vocab .jpc .jp{font-size:15px;color:#3d4a57}
+.vocab .jpc .tag{font-size:12px}
+.vocab td:nth-child(2){grid-column:2;grid-row:3;font-size:15px;max-width:46vw}
+.vocab td.en{grid-column:3;grid-row:3;font-size:14px;padding-left:12px;align-self:baseline}
+.dlg{border-radius:12px}
+.playall{padding:12px 14px;font-size:15px;justify-content:center}
+.line{grid-template-columns:28px minmax(0,1fr) 40px;gap:4px 10px;padding:13px 12px}
+.say .yue{font-size:18px}
+.say .jp{font-size:13.5px;line-height:1.5;word-break:break-word}
+.tr{grid-column:2;grid-row:2;font-size:14.5px}
+.line .play{grid-column:3;grid-row:1;margin:0}
+.scroll{margin:0 -14px;padding:0 14px}
+.plain{min-width:560px}
+.plain td,.plain th{font-size:14px;padding:8px 10px}
+.single .pager{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:5;gap:10px;align-items:center;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);border-top:1px solid var(--line)}
+.pager button{flex:1;height:44px;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--navy);font:inherit;font-size:15px;font-weight:600}
+.pager button#next{background:var(--navy);border-color:var(--navy);color:#fff}
+.pager button:disabled{opacity:.35}
+.pager span{flex:none;min-width:56px;text-align:center;color:var(--mute);font-size:14px}
+.foot{margin:24px 4px;font-size:12.5px}
+.embed .top{display:none}
+.embed .side{top:0}
+.embed{--embed:1}
+html:has(.embed){scroll-padding-top:58px}
+}
+@page{size:A4;margin:14mm 13mm}
+@media print{*{-webkit-print-color-adjust:exact;print-color-adjust:exact}body{font-size:13px}h1{font-size:24px}.lh h2{font-size:21px}table{font-size:12.5px}.vocab td.yue{font-size:14px}.say .yue{font-size:14.5px}.tr{font-size:12px}.tr .en{font-size:11.5px}.jpc{min-width:120px}h3{break-after:avoid}.lesson{margin:0}.lesson:first-of-type{break-before:auto}.dlg{border:0}.line{grid-template-columns:26px minmax(0,1.15fr) minmax(0,1fr);padding:7px 4px}td,th{padding:6px 9px}.top,.side,.play,.playall,#slow{display:none!important}.wrap{display:block;padding:0}body{background:#fff}.lesson{border:0;padding:0;break-before:page}.w{border:0}tr,.line{break-inside:avoid}}
+
+/* ---------- 韩语教材 ---------- */
+:root{--t-han:#2f6fb5;--t-go:#2e8b57;--t-oe:#b7791f;--t-mix:#7b4bb3;--rr:#1c7d70}
+[lang=ko]{font-family:-apple-system,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif}
+.lh h2 small{font-size:17px;font-weight:500;color:var(--rr);margin-left:8px;font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace}
+h3 small{font-weight:400;color:var(--mute);font-size:14px}
+.stats span b{color:var(--navy);font-size:16px;margin-right:2px}
+.kv td.ko{display:flex;align-items:flex-start;gap:12px;cursor:pointer;min-width:250px;border-bottom:0}
+.kv tr{border-bottom:1px solid var(--line)}
+.kv td{border-bottom:0}
+.kv td.ko .play{width:38px;height:38px;margin:2px 0 0}
+.kv td.ko:hover .play,.kv td.ko.on .play{background:var(--teal);color:#fff}
+.kw b{font-size:25px;font-weight:600;line-height:1.3;color:var(--ink)}
+.rr{display:block;font:500 18px/1.35 "SF Mono",ui-monospace,Menlo,Consolas,monospace;color:var(--rr);letter-spacing:-.01em;word-break:break-word}
+.kv td.zh{font-size:16px;min-width:120px}
+.kv td.en{font-size:15px}
+.kv .jpc{min-width:190px;font-size:14px}
+.jpc .tag{font-size:13px;font-weight:600}
+.jpc .ety{display:block;font-size:16px;color:var(--ink)}
+.jpc .pron{display:block;color:var(--mute);font-size:13.5px}
+.jpc .pron b{font-weight:500;color:#3d4a57;font-size:15px}
+.t-汉{border-left-color:var(--t-han)}.t-汉 .tag{color:var(--t-han)}
+.t-固{border-left-color:var(--t-go)}.t-固 .tag{color:var(--t-go)}
+.t-外{border-left-color:var(--t-oe)}.t-外 .tag{color:var(--t-oe)}
+.t-混{border-left-color:var(--t-mix)}.t-混 .tag{color:var(--t-mix)}
+.t-搭{border-left-color:var(--t-da)}.t-搭 .tag{color:var(--t-da)}
+.t-q{border-left-color:#c0392b}.t-q .tag{color:#c0392b}
+.legend{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.lg{border:1px solid var(--line);border-left:4px solid var(--t-da);border-radius:8px;padding:8px 12px;font-size:15px}
+.lg b{margin-right:4px}.lg small{display:block;color:var(--mute);font-size:13px}
+.lg.t-汉 b{color:var(--t-han)}.lg.t-固 b{color:var(--t-go)}.lg.t-外 b{color:var(--t-oe)}.lg.t-混 b{color:var(--t-mix)}.lg.t-法 b{color:var(--t-fa)}.lg.t-q b{color:#c0392b}
+.note{color:#3d4a57;font-size:15px;margin:0 0 12px}
+.hj{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.hjc{display:grid;grid-template-columns:auto 1fr;gap:2px 14px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:10px 14px;background:#f8fafb}
+.hjc .han{font-size:38px;line-height:1.1;color:var(--navy);grid-row:1/3;font-family:"Songti SC","Noto Serif CJK TC",serif}
+.hjc .syl b{font-size:24px;font-weight:600}.hjc .syl i{font:500 17px "SF Mono",ui-monospace,Menlo,monospace;color:var(--rr);margin-left:8px;font-style:normal}
+.hjc .ex{font-size:15px;display:flex;flex-wrap:wrap;gap:2px 12px}
+.w b{font-size:1.08em}.w i{color:var(--rr);font-size:.9em}
+.vols{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:18px;margin-top:20px}
+.vol{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.vol h2{margin:8px 0 0;font-size:24px}.vol h2 a{color:var(--navy);text-decoration:none}
+.vol .sub{margin:2px 0 12px;color:var(--mute);font-size:14.5px}
+.vol.off{opacity:.55;border-style:dashed}.vol.off .chip{background:#9aa5b1}
+.chs{display:flex;flex-direction:column}
+.chs a{display:grid;grid-template-columns:28px auto 1fr auto;gap:8px;align-items:baseline;padding:8px 6px;border-top:1px solid var(--line);text-decoration:none;color:var(--ink);border-radius:6px}
+.chs a:hover{background:#eef8f6}
+.chs em{font-style:normal;color:var(--teal);font-weight:600;font-size:13px}.chs b{font-size:17px}.chs span{color:#4a5663;font-size:14.5px}.chs i{font-style:normal;color:var(--mute);font-size:13px}
+@media screen and (max-width:860px){
+.kv,.kv tbody{display:block}.kv thead{display:none}
+.kv tr{display:grid;grid-template-columns:56px minmax(0,1fr);row-gap:3px;padding:14px 0;background:none!important}
+.kv tr:last-child{border-bottom:0}
+.kv td{padding:0}
+.kv td.ko{grid-column:1/-1;gap:12px;min-width:0}
+.kv td.ko .play{width:44px;height:44px;margin:0}
+.kv td.ko .play svg{width:21px;height:21px}
+.kw b{font-size:26px}.rr{font-size:19px}
+.kv td.zh{grid-column:2;font-size:17px;margin-top:2px}
+.kv td.en{grid-column:2;font-size:14.5px}
+.kv .jpc{grid-column:2;border-left:0;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;margin-top:2px}
+.jpc .ety{font-size:15.5px}
+.lh h2 small{display:block;margin:2px 0 0;font-size:16px}
+.stats{flex-direction:row!important;flex-wrap:wrap;gap:4px 14px!important}
+.hj{grid-template-columns:1fr}
+.vols{grid-template-columns:1fr;gap:12px;margin:14px 0}
+.wrap:has(.side:empty) main{padding-top:4px}
+}
+@media print{.kv td.ko .play{display:none}}
+.wrap:has(.side:empty){display:block}
+</style></head><body>
+<div class="top"><span class="brand">延世韩语词汇</span><nav><a href="index.html" class="on">总览</a><a href="vol-01.html">第 1 册</a><a href="vol-02.html">第 2 册</a><a href="vol-03.html">第 3 册</a><a href="vol-04.html">第 4 册</a><a href="vol-05.html">第 5 册</a><a href="vol-06.html">第 6 册</a></nav><button id="slow" aria-pressed="false">慢速</button></div>
+<div class="wrap"><aside class="side"></aside><main><h1>延世韩语词汇 1–6 册</h1>
+<p>延世韩国语 1–6 册课程词汇：韩语、罗马音、中文、英文、词性与词源放在一起，点击即可听发音。手机上一次显示一课，底部翻页。</p><div class="vols">
+<div class="vol"><span class="chip">第 1 册</span><h2><a href="vol-01.html">Vol. 1</a></h2><p class="sub">10 课 · 40 单元 · 1,064 条词汇与表达</p><div class="chs"><a href="vol-01.html#s1"><em>01</em><b lang="ko">인사</b><span>问候</span><i>65</i></a><a href="vol-01.html#s2"><em>02</em><b lang="ko">학교와 집</b><span>学校与家</span><i>107</i></a><a href="vol-01.html#s3"><em>03</em><b lang="ko">가족과 친구</b><span>家人与朋友</span><i>115</i></a><a href="vol-01.html#s4"><em>04</em><b lang="ko">음식</b><span>饮食</span><i>121</i></a><a href="vol-01.html#s5"><em>05</em><b lang="ko">하루 생활</b><span>日常生活</span><i>98</i></a><a href="vol-01.html#s6"><em>06</em><b lang="ko">물건 사기</b><span>购物</span><i>111</i></a><a href="vol-01.html#s7"><em>07</em><b lang="ko">교통</b><span>交通</span><i>118</i></a><a href="vol-01.html#s8"><em>08</em><b lang="ko">전화</b><span>电话</span><i>78</i></a><a href="vol-01.html#s9"><em>09</em><b lang="ko">날씨와 계절</b><span>天气与季节</span><i>117</i></a><a href="vol-01.html#s10"><em>10</em><b lang="ko">휴일과 방학</b><span>节假日与假期</span><i>134</i></a></div></div>
+<div class="vol"><span class="chip">第 2 册</span><h2><a href="vol-02.html">Vol. 2</a></h2><p class="sub">10 课 · 50 单元 · 877 条词汇与表达</p><div class="chs"><a href="vol-02.html#s1"><em>01</em><b lang="ko">소개</b><span>介绍</span><i>70</i></a><a href="vol-02.html#s2"><em>02</em><b lang="ko">한국 음식</b><span>韩国饮食</span><i>100</i></a><a href="vol-02.html#s3"><em>03</em><b lang="ko">시장</b><span>市场</span><i>80</i></a><a href="vol-02.html#s4"><em>04</em><b lang="ko">초대</b><span>邀请</span><i>72</i></a><a href="vol-02.html#s5"><em>05</em><b lang="ko">교통</b><span>交通</span><i>81</i></a><a href="vol-02.html#s6"><em>06</em><b lang="ko">공공기관</b><span>公共机构</span><i>89</i></a><a href="vol-02.html#s7"><em>07</em><b lang="ko">전화</b><span>电话</span><i>73</i></a><a href="vol-02.html#s8"><em>08</em><b lang="ko">병원</b><span>医院</span><i>96</i></a><a href="vol-02.html#s9"><em>09</em><b lang="ko">여행</b><span>旅行</span><i>116</i></a><a href="vol-02.html#s10"><em>10</em><b lang="ko">집안일</b><span>家务</span><i>100</i></a></div></div>
+<div class="vol"><span class="chip">第 3 册</span><h2><a href="vol-03.html">Vol. 3</a></h2><p class="sub">10 课 · 50 单元 · 605 条词汇与表达</p><div class="chs"><a href="vol-03.html#s1"><em>01</em><b lang="ko">취미 생활</b><span>兴趣生活</span><i>54</i></a><a href="vol-03.html#s2"><em>02</em><b lang="ko">일상생활</b><span>日常生活</span><i>71</i></a><a href="vol-03.html#s3"><em>03</em><b lang="ko">건강</b><span>健康</span><i>70</i></a><a href="vol-03.html#s4"><em>04</em><b lang="ko">공연과 감상</b><span>演出与欣赏</span><i>55</i></a><a href="vol-03.html#s5"><em>05</em><b lang="ko">사람</b><span>人物</span><i>59</i></a><a href="vol-03.html#s6"><em>06</em><b lang="ko">모임 문화</b><span>聚会文化</span><i>53</i></a><a href="vol-03.html#s7"><em>07</em><b lang="ko">실수와 사과</b><span>失误与道歉</span><i>58</i></a><a href="vol-03.html#s8"><em>08</em><b lang="ko">학교 생활</b><span>学校生活</span><i>65</i></a><a href="vol-03.html#s9"><em>09</em><b lang="ko">부탁과 거절</b><span>请求与拒绝</span><i>42</i></a><a href="vol-03.html#s10"><em>10</em><b lang="ko">어제와 오늘</b><span>昨日与今日</span><i>78</i></a></div></div>
+<div class="vol"><span class="chip">第 4 册</span><h2><a href="vol-04.html">Vol. 4</a></h2><p class="sub">10 课 · 40 单元 · 560 条词汇与表达</p><div class="chs"><a href="vol-04.html#s1"><em>01</em><b lang="ko">나의 생활</b><span>我的生活</span><i>43</i></a><a href="vol-04.html#s2"><em>02</em><b lang="ko">사람의 성격</b><span>人的性格</span><i>70</i></a><a href="vol-04.html#s3"><em>03</em><b lang="ko">일상의 문제</b><span>日常问题</span><i>64</i></a><a href="vol-04.html#s4"><em>04</em><b lang="ko">현대 한국의 문화</b><span>现代韩国文化</span><i>51</i></a><a href="vol-04.html#s5"><em>05</em><b lang="ko">시간과 변화</b><span>时间与变化</span><i>61</i></a><a href="vol-04.html#s6"><em>06</em><b lang="ko">지식과 사회</b><span>知识与社会</span><i>44</i></a><a href="vol-04.html#s7"><em>07</em><b lang="ko">미신</b><span>迷信</span><i>54</i></a><a href="vol-04.html#s8"><em>08</em><b lang="ko">생활 경제</b><span>生活经济</span><i>69</i></a><a href="vol-04.html#s9"><em>09</em><b lang="ko">명절과 축제</b><span>节日与庆典</span><i>53</i></a><a href="vol-04.html#s10"><em>10</em><b lang="ko">현대를 살아가는 사람들</b><span>生活在现代的人</span><i>51</i></a></div></div>
+<div class="vol"><span class="chip">第 5 册</span><h2><a href="vol-05.html">Vol. 5</a></h2><p class="sub">10 课 · 20 单元 · 859 条词汇与表达</p><div class="chs"><a href="vol-05.html#s1"><em>01</em><b lang="ko">언어와 생활</b><span>语言与生活</span><i>48</i></a><a href="vol-05.html#s2"><em>02</em><b lang="ko">직업과 직장</b><span>职业与职场</span><i>110</i></a><a href="vol-05.html#s3"><em>03</em><b lang="ko">일상생활과 여가 문화</b><span>日常生活与休闲文化</span><i>73</i></a><a href="vol-05.html#s4"><em>04</em><b lang="ko">과학과 기술</b><span>科学与技术</span><i>88</i></a><a href="vol-05.html#s5"><em>05</em><b lang="ko">생활과 경제</b><span>生活与经济</span><i>94</i></a><a href="vol-05.html#s6"><em>06</em><b lang="ko">대중문화와 예술</b><span>大众文化与艺术</span><i>102</i></a><a href="vol-05.html#s7"><em>07</em><b lang="ko">전통과 변화</b><span>传统与变化</span><i>76</i></a><a href="vol-05.html#s8"><em>08</em><b lang="ko">삶과 배움</b><span>生活与学习</span><i>81</i></a><a href="vol-05.html#s9"><em>09</em><b lang="ko">자연과 환경</b><span>自然与环境</span><i>93</i></a><a href="vol-05.html#s10"><em>10</em><b lang="ko">개인과 공동체</b><span>个人与共同体</span><i>94</i></a></div></div>
+<div class="vol"><span class="chip">第 6 册</span><h2><a href="vol-06.html">Vol. 6</a></h2><p class="sub">10 课 · 20 单元 · 480 条词汇与表达</p><div class="chs"><a href="vol-06.html#s1"><em>01</em><b lang="ko">성공적인 삶</b><span>成功的人生</span><i>51</i></a><a href="vol-06.html#s2"><em>02</em><b lang="ko">더불어 사는 사회</b><span>共生社会</span><i>45</i></a><a href="vol-06.html#s3"><em>03</em><b lang="ko">남성과 여성</b><span>男性与女性</span><i>30</i></a><a href="vol-06.html#s4"><em>04</em><b lang="ko">바른 선택</b><span>正确的选择</span><i>50</i></a><a href="vol-06.html#s5"><em>05</em><b lang="ko">스포츠</b><span>体育</span><i>51</i></a><a href="vol-06.html#s6"><em>06</em><b lang="ko">가까워지는 세계</b><span>日益紧密的世界</span><i>67</i></a><a href="vol-06.html#s7"><em>07</em><b lang="ko">소중한 문화유산</b><span>珍贵的文化遗产</span><i>44</i></a><a href="vol-06.html#s8"><em>08</em><b lang="ko">한국인의 생활</b><span>韩国人的生活</span><i>48</i></a><a href="vol-06.html#s9"><em>09</em><b lang="ko">미래 사회</b><span>未来社会</span><i>52</i></a><a href="vol-06.html#s10"><em>10</em><b lang="ko">진로와 취업</b><span>职业道路与就业</span><i>42</i></a></div></div>
+</div>
+<p class="foot">发音为电脑合成韩语语音，供跟读参考。罗马音按《国语罗马字表记法》并依实际读音标注，个别不规则音变以词典「发音」栏为准。<br>
+词汇数据来自开源项目 Open Yonsei Korean Vocabulary（CC BY-SA 3.0），释义依据韩国国立国语院《韩国语基础词典》；本页为其衍生整理，同样按 CC BY-SA 3.0 分享。与延世大学及其韩国语学堂无从属或背书关系。</p></main></div>
+<script>(function(){
+  var slow=false, cur=null, curEl=null, queue=null;
+  function voice(){
+    var vs=(window.speechSynthesis&&speechSynthesis.getVoices())||[];
+    return vs.find(function(v){return /^ko/i.test(v.lang)})||null;
+  }
+  function stop(){
+    if(cur){cur.onended=null;cur.onerror=null;cur.pause();cur=null}
+    if(window.speechSynthesis)speechSynthesis.cancel();
+    if(curEl){curEl.classList.remove('on');var l=curEl.closest('.line');if(l)l.classList.remove('on');curEl=null}
+  }
+  function tts(text,done){
+    if(!window.speechSynthesis){alert('此浏览器不支持语音播放，请用 Chrome、Edge 或 Safari 打开。');done();return}
+    var u=new SpeechSynthesisUtterance(text);u.lang='ko-KR';var v=voice();if(v)u.voice=v;
+    u.rate=slow?0.6:0.9;u.onend=done;u.onerror=done;speechSynthesis.speak(u);
+  }
+  function play(el,done){
+    stop();curEl=el;el.classList.add('on');var l=el.closest('.line');if(l)l.classList.add('on');
+    var fell=false,fin=function(){if(curEl===el)stop();if(done)done()};
+    var fb=function(){if(fell)return;fell=true;cur=null;tts(el.dataset.t,fin)};
+    var a=new Audio();a.preload='auto';a.src='audio/'+el.dataset.a;cur=a;a.playbackRate=slow?0.7:1;
+    a.onended=fin;a.onerror=fb;var p=a.play();if(p&&p.catch)p.catch(fb);
+  }
+  document.addEventListener('click',function(e){
+    var s=e.target.closest('#slow');
+    if(s){slow=!slow;s.setAttribute('aria-pressed',slow);return}
+    var all=e.target.closest('.playall');
+    if(all){var bs=[].slice.call(all.parentNode.querySelectorAll('.line .play'));queue=bs;
+      (function next(){if(queue!==bs||!bs.length)return;var b=bs.shift();play(b,function(){setTimeout(next,350)})})();return}
+    var el=e.target.closest('[data-t]');
+    if(el){queue=null;play(el)}
+  });
+  document.addEventListener('keydown',function(e){
+    if((e.key==='Enter'||e.key===' ')&&e.target.classList&&e.target.classList.contains('w')){e.preventDefault();queue=null;play(e.target)}
+  });
+  if(window.speechSynthesis)speechSynthesis.getVoices();
+  // 手机端：一次只显示一课，底部翻页；?embed=1 隐藏顶栏（内嵌小程序用）
+  var B=document.body, mq=window.matchMedia('(max-width:860px)');
+  if(/[?&]embed=1/.test(location.search))B.classList.add('embed');
+  var secs=[].slice.call(document.querySelectorAll('section.lesson'));
+  var links=[].slice.call(document.querySelectorAll('.side a'));
+  var prev=document.getElementById('prev'),next=document.getElementById('next'),pos=document.getElementById('pos'),idx=0;
+  function single(){return B.classList.contains('single')}
+  function show(i,top){
+    if(!secs.length)return;idx=Math.max(0,Math.min(secs.length-1,i));
+    secs.forEach(function(s,k){s.classList.toggle('cur',k===idx)});
+    links.forEach(function(a,k){a.classList.toggle('on',k===idx)});
+    if(links[idx]&&single()){var a=links[idx],p=a.parentNode;p.scrollLeft=a.offsetLeft-(p.clientWidth-a.offsetWidth)/2}
+    if(prev){prev.disabled=idx===0;next.disabled=idx===secs.length-1;pos.textContent=(idx+1)+' / '+secs.length}
+    if(top&&single()){stop();queue=null;window.scrollTo(0,0)}
+  }
+  function fromHash(){var k=secs.findIndex(function(s){return '#'+s.id===location.hash});return k<0?0:k}
+  function mode(){B.classList.toggle('single',mq.matches&&B.classList.contains('paged'));show(fromHash(),false)}
+  function go(i){if(i<0||i>=secs.length)return;try{history.replaceState(null,'','#'+secs[i].id)}catch(e){}show(i,true)}
+  links.forEach(function(a,k){a.addEventListener('click',function(e){if(single()){e.preventDefault();go(k)}else{show(k,false)}})});
+  if(prev){prev.addEventListener('click',function(){go(idx-1)});next.addEventListener('click',function(){go(idx+1)})}
+  window.addEventListener('hashchange',function(){show(fromHash(),true)});
+  if(mq.addEventListener)mq.addEventListener('change',mode);else if(mq.addListener)mq.addListener(mode);
+  mode();
+})();
+</script></body></html>
